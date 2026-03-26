@@ -1,6 +1,6 @@
 # Future Wear
 
-![Project Banner](https://github.com/user-attachments/assets/0aa67016-6eaf-458a-adb2-6e31a0763ed6)
+![Future Wear Project Banner](./public/screenshot.png)
 
 A modern, brutalist-inspired e-commerce landing page for a futuristic apparel and tech-wear brand. Built with cutting-edge web technologies to deliver a highly interactive and visually striking user experience.
 
