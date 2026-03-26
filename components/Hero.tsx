@@ -4,7 +4,6 @@ import React from 'react';
 import { motion, useScroll, useTransform } from 'motion/react';
 import Image from 'next/image';
 import { ArrowRight } from 'lucide-react';
-import heroImage from '../public/markus-winkler-PQmXUxmfR44-unsplash.jpg';
 
 export default function Hero() {
   const { scrollY } = useScroll();
@@ -71,7 +70,7 @@ export default function Hero() {
                 className="relative h-full w-full"
               >
                 <Image
-                  src={heroImage}
+                  src={`${process.env.NEXT_PUBLIC_BASE_PATH || ''}/markus-winkler-PQmXUxmfR44-unsplash.jpg`}
                   alt="Future Fashion Dashboard"
                   fill
                   sizes="(max-width: 768px) 100vw, 50vw"

@@ -12,10 +12,10 @@ export default function Footer() {
               NEO<span className="bg-white px-1 text-black">MARKET</span>
             </div>
             <p className="text-xl font-bold text-gray-400 max-w-md">
-              The premier destination for cybernetic enhancements and future-proof apparel. Established 2048.
+              Centralized dashboard for the future of apparel. Curating the megacity's finest tech-wear and cybernetic upgrades. Established 2026.
             </p>
           </div>
-          
+
           <div>
             <h4 className="text-xl font-black mb-6 uppercase">Navigation</h4>
             <ul className="space-y-4 font-bold text-gray-400">
