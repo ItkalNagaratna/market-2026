@@ -5,62 +5,64 @@ import { motion } from 'motion/react';
 import Image from 'next/image';
 import { Plus, Heart } from 'lucide-react';
 
+const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+
 const products = [
   {
     id: 1,
     name: "Runner Jacket",
     price: 89,
     category: "Outerwear",
-    image: "/hamed-darzi-u42GjVgZgV0-unsplash.jpg"
+    image: `${basePath}/hamed-darzi-u42GjVgZgV0-unsplash.jpg`
   },
   {
     id: 2,
     name: "Fiber Scarf",
     price: 299,
     category: "Accessories",
-    image: "/ling-hua-dkB4ewB0-Cw-unsplash.jpg"
+    image: `${basePath}/ling-hua-dkB4ewB0-Cw-unsplash.jpg`
   },
   {
     id: 3,
     name: "Tops",
     price: 55,
     category: "Apparel",
-    image: "/md-salman-tWOz2_EK5EQ-unsplash.jpg"
+    image: `${basePath}/md-salman-tWOz2_EK5EQ-unsplash.jpg`
   },
   {
     id: 4,
     name: "White Cap",
     price: 450,
     category: "Headwear",
-    image: "/mediamodifier-DT7ercyDWjs-unsplash.jpg"
+    image: `${basePath}/mediamodifier-DT7ercyDWjs-unsplash.jpg`
   },
   {
     id: 5,
     name: "Bio-Metric Gloves",
     price: 120,
     category: "Accessories",
-    image: "/possessed-photography-jIBMSMs4_kA-unsplash.jpg"
+    image: `${basePath}/possessed-photography-jIBMSMs4_kA-unsplash.jpg`
   },
   {
     id: 6,
     name: "Cyber-Goggles",
     price: 75,
     category: "Eyewear",
-    image: "/soheb-zaidi-oz3olAo3axw-unsplash.jpg"
+    image: `${basePath}/soheb-zaidi-oz3olAo3axw-unsplash.jpg`
   },
   {
     id: 7,
     name: "Bag",
     price: 45,
     category: "Bags",
-    image: "/utopia-by-cho-SbfmmStJVeg-unsplash.jpg"
+    image: `${basePath}/utopia-by-cho-SbfmmStJVeg-unsplash.jpg`
   },
   {
     id: 8,
     name: "Boots",
     price: 180,
     category: "Footwear",
-    image: "/zac-wolff-esxf7PJmExQ-unsplash.jpg"
+    image: `${basePath}/zac-wolff-esxf7PJmExQ-unsplash.jpg`
   }
 ];
 
