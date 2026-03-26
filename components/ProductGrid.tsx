@@ -5,7 +5,14 @@ import { motion } from 'motion/react';
 import Image from 'next/image';
 import { Plus, Heart } from 'lucide-react';
 
-const basePath = process.env.NEXT_PUBLIC_BASE_PATH || '';
+import img1 from '../public/hamed-darzi-u42GjVgZgV0-unsplash.jpg';
+import img2 from '../public/ling-hua-dkB4ewB0-Cw-unsplash.jpg';
+import img3 from '../public/md-salman-tWOz2_EK5EQ-unsplash.jpg';
+import img4 from '../public/mediamodifier-DT7ercyDWjs-unsplash.jpg';
+import img5 from '../public/possessed-photography-jIBMSMs4_kA-unsplash.jpg';
+import img6 from '../public/soheb-zaidi-oz3olAo3axw-unsplash.jpg';
+import img7 from '../public/utopia-by-cho-SbfmmStJVeg-unsplash.jpg';
+import img8 from '../public/zac-wolff-esxf7PJmExQ-unsplash.jpg';
 
 const products = [
   {
@@ -13,56 +20,56 @@ const products = [
     name: "Runner Jacket",
     price: 89,
     category: "Outerwear",
-    image: `${basePath}/hamed-darzi-u42GjVgZgV0-unsplash.jpg`
+    image: img1
   },
   {
     id: 2,
     name: "Fiber Scarf",
     price: 299,
     category: "Accessories",
-    image: `${basePath}/ling-hua-dkB4ewB0-Cw-unsplash.jpg`
+    image: img2
   },
   {
     id: 3,
     name: "Tops",
     price: 55,
     category: "Apparel",
-    image: `${basePath}/md-salman-tWOz2_EK5EQ-unsplash.jpg`
+    image: img3
   },
   {
     id: 4,
     name: "White Cap",
     price: 450,
     category: "Headwear",
-    image: `${basePath}/mediamodifier-DT7ercyDWjs-unsplash.jpg`
+    image: img4
   },
   {
     id: 5,
     name: "Bio-Metric Gloves",
     price: 120,
     category: "Accessories",
-    image: `${basePath}/possessed-photography-jIBMSMs4_kA-unsplash.jpg`
+    image: img5
   },
   {
     id: 6,
     name: "Cyber-Goggles",
     price: 75,
     category: "Eyewear",
-    image: `${basePath}/soheb-zaidi-oz3olAo3axw-unsplash.jpg`
+    image: img6
   },
   {
     id: 7,
     name: "Bag",
     price: 45,
     category: "Bags",
-    image: `${basePath}/utopia-by-cho-SbfmmStJVeg-unsplash.jpg`
+    image: img7
   },
   {
     id: 8,
     name: "Boots",
     price: 180,
     category: "Footwear",
-    image: `${basePath}/zac-wolff-esxf7PJmExQ-unsplash.jpg`
+    image: img8
   }
 ];
 
